@@ -13,9 +13,9 @@ namespace ConsoleAppProject
     /// This Project has been modified by:
     /// Derek Peacock 05/02/2022
     /// </summary>
-    public static class Program
+    public static class program
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
 
@@ -27,7 +27,7 @@ namespace ConsoleAppProject
             Console.WriteLine();
 
             DistanceConverter converter = new DistanceConverter();
-            converter.Run();
+            
         }
     }
 }

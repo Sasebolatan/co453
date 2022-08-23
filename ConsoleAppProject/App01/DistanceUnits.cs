@@ -1,17 +1,19 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using ConsoleAppProject.App01;
 
 namespace ConsoleAppProject.App01
+
 {
-    /// <summary>
+    /// <The main method in this class is called first when the application is started it will be used to start app 01 to 05 for CO453 CW1 >
     /// List of units used to measure distance
-    /// </summary>
-    public enum DistanceUnits
-    {
-        [Display(Name = "No Unit")]
-        NoUnit,
-        Feet,
-        Metres,
-        Kilometres,
-        Miles
+    /// <This project was modified by samuel asebolatan
+    ///>
+            public enum DistanceUnits
+        {
+
+            NoUnit,
+            Feet,
+            Metres,
+            Miles,
+        }
     }
-}
