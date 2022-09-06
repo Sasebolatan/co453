@@ -1,7 +1,8 @@
 ﻿using System;
 
 namespace ConsoleAppProject.App01
-{
+{ 
+
     /// <summary>
     /// This app will prompt the user to input a distance measured in one unit (fromUnit) and it will calculate and output the equivalent distance in another unit.
     /// </summary>
@@ -40,11 +41,10 @@ namespace ConsoleAppProject.App01
             toUnit = FEET;
         }
 
-
-
-        public void Run()
+     
+        public void ConvertDistance()
         {
-            OutputHeading();
+            ConsoleHelper.OutputHeading("Distance Converter");
             do
             {
                 fromUnit = SelectUnit(" Please select the from distance unit > ");
@@ -227,3 +227,4 @@ namespace ConsoleAppProject.App01
     }
 
 }
+
