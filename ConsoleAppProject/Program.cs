@@ -81,9 +81,14 @@ namespace ConsoleAppProject
                 StudentGrades grades = new StudentGrades();
                 grades.Run();
             }
+            else if (choice == "4")
+            {
+                NewsApp network = new NewsApp();
+                network.Run();
+                {
 
             else Console.WriteLine("Invalid Choice !");
-
+                }
 
 
 
